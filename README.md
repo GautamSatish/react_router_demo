@@ -7,6 +7,8 @@ To get started,
 2. Install the dependencies: npm install
 3. Start the webpack dev server: npm run dev
 
+This should launch your app at http://localhost:9000/
+
 To complete the exercise, you will need to update the code in the following places:
 1. src/MainMenu.jsx: Setup the Links as per the instruction in the source file.
 2. src/MainPanel.jsx: Setup the Switch with the Routes.
