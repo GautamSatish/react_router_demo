@@ -1,5 +1,7 @@
 # React Router Demo
 
+<a href="https://snyk.io/test/github/GautamSatish/react_router_demo"><img src="https://snyk.io/test/github/GautamSatish/react_router_demo/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/GautamSatish/react_router_demo" style="max-width:100%;"></a>
+
 This is a basic hands-on exericse intended to familiarize uses with the React Router.
 
 To get started, 
