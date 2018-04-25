@@ -13,10 +13,10 @@ class MenuBar extends React.Component {
       <Navbar>
         <Nav>
           <NavItem eventKey={2} href="#">
-            Yellow
+            <Link to="/others/yellow" href="/others/yellow">Yellow</Link>
           </NavItem>
           <NavItem eventKey={2} href="#">
-            Green
+            <Link to="/others/green" href="/others/green">Green</Link>
           </NavItem>
         </Nav>
       </Navbar>

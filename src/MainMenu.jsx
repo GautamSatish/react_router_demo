@@ -15,18 +15,18 @@ class MainMenu extends React.Component {
       <Navbar>
         <Navbar.Header>
           <Navbar.Brand>
-            Home
+            <Link to="/" href="/">Home</Link>
           </Navbar.Brand>
         </Navbar.Header>
         <Nav>
           <NavItem eventKey={1} href="#">
-            Red
+            <Link to="/red" href="/red">Red</Link>
           </NavItem>
           <NavItem eventKey={2} href="#">
-            Blue
+            <Link to="/blue" href="/blue">Blue</Link>
           </NavItem>
           <NavItem eventKey={2} href="#">
-            Others
+            <Link to="/others" href="/others">Others</Link>
           </NavItem>
         </Nav>
       </Navbar>

@@ -13,13 +13,16 @@ import Others from './Others';
 // "/" --> Home
 // "/red" --> Red
 // "/blue" --> blue
-// "/others" --> Others Skip the exact keyword here.
+// "/others" --> Others
 
 class MainPanel extends React.Component {
   render() {
     return (
       <Switch>
-        {/* <Route exact path="/" component={Home} /> */}
+        <Route exact path="/" component={Home} />
+        <Route exact path="/red" component={Red} />
+        <Route exact path="/blue" component={Blue} />
+        <Route path="/others" component={Others} />
       </Switch>
     );
   }

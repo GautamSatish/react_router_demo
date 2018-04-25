@@ -11,7 +11,10 @@ import AnyColor from './colors/AnyColor';
 class Others extends React.Component {
   render() {
     return (
-      <h1>Place Holder</h1>
+      <Switch>
+        <Route exact path="/others" component={OthersMenu} />
+        <Route path="/others/:color" component={AnyColor} />
+      </Switch>
     );
   }
 }
