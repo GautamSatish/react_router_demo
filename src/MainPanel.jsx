@@ -13,7 +13,7 @@ import Others from './Others';
 // "/" --> Home
 // "/red" --> Red
 // "/blue" --> blue
-// "/others" --> Others
+// "/others" --> Others Skip the exact keyword here.
 
 class MainPanel extends React.Component {
   render() {
